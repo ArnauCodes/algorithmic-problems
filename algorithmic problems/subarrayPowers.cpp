@@ -19,7 +19,7 @@ void solve(){
   if (K == 0){
     throw;
     }
-  for (int i = 1; i <= max; i++){
+  for (int i = 0; i <= max; i++){
     kPows.push_back(pow(K, i));
   }
   for (int i = 1; i < kPows.size(); i++){
