@@ -6,7 +6,7 @@
 
 void solve(){
   int K; 
-  std::vector<int> nums = {2, 4, 8, 81, 64, 1024, 9};
+  std::vector<int> nums = {2, 4, 8, 81, 64, 1024};
   std::vector<int> kPows;
   int max = nums[0];
   for (int i = 1; i < nums.size(); i++){
@@ -16,13 +16,16 @@ void solve(){
   }
   std::cout << "K value : ";
   std::cin >> K;
+  if (K == 0){
+    throw;
+    }
   for (int i = 1; i <= max; i++){
     kPows.push_back(pow(K, i));
   }
   for (int i = 1; i < kPows.size(); i++){
      for (int j = 0; j < nums.size(); j++){
        if(kPows[i] == nums[j]){
-       std::cout << "{"<< nums[j] << "}" << std::endl;
+       std:: cout << "{"<< nums[j] << "}";
         break;
        }
      }
