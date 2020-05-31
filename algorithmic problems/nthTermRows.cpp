@@ -16,6 +16,7 @@ sum of all elements in the N-th row of above series. */
 
 int solve(int n){
   int sum = 0;
+  // Nth terms for left sequences (1, 3, 7, 13) and for right sequences (2, 6, 12, 20)
   for (int i = (n*n)- n + 1; i < (n*n) + n + 1; i++){
     sum += i;
   }
