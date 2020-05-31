@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 /* Given a series as shown below:
 
@@ -14,15 +13,17 @@ using namespace std;
 You are given a number N, you need to write a program to find the 
 sum of all elements in the N-th row of above series. */
 
+
 int solve(int n){
   int sum = 0;
   for (int i = (n*n)- n + 1; i < (n*n) + n + 1; i++){
     sum += i;
   }
-  cout << sum << endl;
+  std::cout << sum << std::endl;
 }
 
 int main() {
-  int n = 2;
-	return 0;
+  int n = 84;
+  std::cout << solve(n);
+  return 0;
 }
