@@ -13,7 +13,7 @@ void solve(std::string s1, std::string s2){
   transform(s1.begin(), s1.end(), s1.begin(), ::tolower);
   for (int i = 0; i < s1.length(); i++){
     if (s1[i] == s2[i]){
-      count ++;
+      count++;
     }
   }
   std::cout << count << std::endl;
