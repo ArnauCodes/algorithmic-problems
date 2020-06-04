@@ -1,5 +1,10 @@
 #include <iostream>
 
+
+/* Construct an N input AND Gate. An AND Gate returns 1 if all its inputs are 1, 
+otherwise 0. */
+
+
 int solve(int n){
   while (n != 0){
     if(n % 2 == 1){
