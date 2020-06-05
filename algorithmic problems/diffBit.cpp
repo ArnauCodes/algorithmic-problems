@@ -29,6 +29,7 @@ void solve(int n, int m){
   for (int l = 0; l < s1.length(); l++){
     if (s1[l] != s2[l]){
       count++;
+      break;
     }
   }
  std::cout << count << std::endl;
