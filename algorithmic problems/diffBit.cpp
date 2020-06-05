@@ -5,6 +5,8 @@
 /* Given two numbers M and N. The task is to find the position of rightmost different bit in binary 
 representation of numbers. */
 
+// NOTE: I got the bit part from a webpage. I manage to do half of it but It did not work. Thanks
+
 void solve(int n, int m){
   int remainder, rBin, i = 1, mI = 1, mBin, mRemainder, count;
   count = 0;
