@@ -7,7 +7,7 @@ void solve(int nJumps){
 }
 
 int main() {
-  int nJumps = 89;
+  int nJumps = 8;
   solve(nJumps);
   return 0;
 }
