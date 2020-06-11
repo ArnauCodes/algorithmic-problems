@@ -20,7 +20,7 @@ void solve(std::vector<int> binaryArray){
 }
 
 int main() {
-  std::vector<int> binaryArray = {1,1,1,1,1,1,0};
+  std::vector<int> binaryArray = {1, 0, 1, 0};
   solve(binaryArray);
   return 0;
 }
