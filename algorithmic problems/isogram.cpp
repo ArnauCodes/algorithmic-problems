@@ -1,6 +1,8 @@
 #include <iostream>
 #include <set>
 
+/* Given a string S of lowercase alphabets, check if it is isogram or not. 
+An Isogram is a string in which no letter occurs more than once. */ 
 
 bool solve(std::string s){
   std::set<char> c;
@@ -17,5 +19,5 @@ bool solve(std::string s){
 
 int main() {
   std::string s = "machine";
-  std::cout << solve(s);
+  std::cout << solve(s) << "\n";
 }
