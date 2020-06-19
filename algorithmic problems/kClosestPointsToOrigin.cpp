@@ -11,7 +11,7 @@
 
 void kClosest(std::vector<std::vector<int>> points, int K){
   std::vector<double> toEvaluate;
-  int n = points.size(), ts;
+  int n = points.size();
   if(K > n || K < 1) throw;
   for (int i = 0; i < n; i++){
     for(int j = 0; j < n; j++){
@@ -20,7 +20,6 @@ void kClosest(std::vector<std::vector<int>> points, int K){
       }
     }
   }
-  ts = toEvaluate.size();
   std::sort(toEvaluate.begin(), toEvaluate.end());
   for (int p = 0; p < K; p++){
     for (int i = 0; i < n; i++){
