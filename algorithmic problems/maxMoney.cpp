@@ -6,7 +6,7 @@ steal/rob two adjacent houses. Find the maximum money he can rob. */
 
 
 void solve(int n, int money){
-  n % 2 == 0 ? std::cout << (n / 2) * money : std::cout <<(n / 2 + 1) * money;
+  n % 2 == 0 ? std::cout << (n / 2) * money : std::cout << (n / 2 + 1) * money;
 }
 
 int main() {
