@@ -4,7 +4,7 @@
 of bits needed to be flipped to convert A to B. */
 
 int solve(int a, int b){
-  int ans = a ^ b, count = 0;
+  int ans = a ^ b;
   return __builtin_popcount(ans);
 }
 
