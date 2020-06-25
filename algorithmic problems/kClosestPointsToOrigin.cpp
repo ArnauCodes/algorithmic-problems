@@ -4,8 +4,7 @@
 #include <vector>
 
 /* We have a list of points on the plane.  Find the K closest points to the origin (0, 0). 
-Just when I uploaded this I came up with a O(nlogn) answer I might upload in the future 
-it might work deleting the biggest size - k elements from the vector. */ 
+Just when I uploaded this I came up with a O(nlogn) answer I might upload in the future */ 
 
 
 
