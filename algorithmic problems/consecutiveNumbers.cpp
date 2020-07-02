@@ -3,7 +3,7 @@
 
 /* Given an integer n, the task is to find whether n can be written as sum of three consecutive integer. */
 
-using std::cin, std::cout, std::endl;
+using std::cin, std::cout, std::endl, std::vector;
 
 void solve(int n){
   std::vector<int> v;
