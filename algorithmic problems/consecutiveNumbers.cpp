@@ -7,7 +7,7 @@ using std::cin, std::cout, std::endl;
 
 void solve(int n){
   std::vector<int> v;
-  for (int i = 1; i <= n; i++){
+  for (int i = 1; i <= (n / 2) + 2; i++){
     v.push_back(i);
   }
   for (int i = 0; i < v.size(); i++){
