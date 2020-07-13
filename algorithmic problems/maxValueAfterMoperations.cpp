@@ -2,6 +2,15 @@
 
 using namespace std;
 
+/* Given an array of size N with all initial values as 0, write a program to perform following M range increment operations as shown below:
+ 
+
+increment(a, b, k) : Increment values from 'a'
+                     to 'b' by 'k'.  
+
+After M operations, calculate the maximum value 
+in the array. */
+
 int main() {
   int t;
   cin >> t;
