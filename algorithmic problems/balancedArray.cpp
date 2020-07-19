@@ -9,9 +9,7 @@ int main() {
   int t; 
   cin >> t;
   while(t--){
-    int n, fisrstHalf, secondHalf;
-    fisrstHalf = 0;
-    secondHalf = 0;
+    int n, fisrstHalf = 0, secondHalf = 0;
     cin >> n;
     if (n % 2 != 0){
       cout << "Even-sized arrays only" << endl;
